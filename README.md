@@ -1,6 +1,7 @@
 # Exercice-integration-bootstrap
 https://openclassrooms.com/courses/decouper-et-integrer-une-maquette
 
+## Maquette récupérée sur [http://blazrobar.com](http://blazrobar.com/free-psd-website-templates/take-a-free-mobile-app-landing-page-psd-template/)
 
 #CAHIER DES CHARGES DE SITE INTERNET
 OpenClassroom
