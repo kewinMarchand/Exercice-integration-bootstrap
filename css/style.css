@@ -1,0 +1,341 @@
+/* ===== Variables ===== */
+
+:root {
+	--color-light : rgb(255, 255, 255);
+	--title-color: rgb(34, 38, 38);
+	--text-color: rgb(149, 149, 149);
+
+	--light-text-color: rgb(246, 247, 250);
+	--help-color: rgb(87, 105, 127);
+
+
+	--light-grey: #f6f7fa;
+	--salmon-color: #f5989d;
+	--blue-color: #615f7d;
+	--green-color: #82ca9c;
+	--dark-blue-color: #192431;
+}
+
+
+
+
+
+/* ===== Reset ===== */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+
+
+
+
+/* ===== Navbar ===== */
+
+.navbar-brand span{
+  font-size: 24px;
+  font-family: 'Merriweather', serif;
+  color: var(--color-light);
+  font-style: italic;
+  line-height: 1;
+  -moz-transform: matrix( 0.87301026510802,0,0,0.86666666666667,0,0);
+  -webkit-transform: matrix( 0.87301026510802,0,0,0.86666666666667,0,0);
+  -ms-transform: matrix( 0.87301026510802,0,0,0.86666666666667,0,0);
+}
+
+
+
+
+/* ===== Header ===== */
+
+#masthead {
+	background: url(../Take-assets/masthead.jpg) no-repeat center;
+	background-size: cover;
+	height: 100vh;
+	max-height: 951px;
+}
+.masthead-title-container {
+	padding-top: 450px;
+}
+.masthead-title {
+	font-size: 60px;
+	color: var(--color-light);
+	line-height: 1.2;
+	text-align: left;
+}
+.masthead-subtitle {
+	font-size: 13px;
+	color: var(--color-light);
+	line-height: 1.846;
+	text-align: left;
+}
+#masthead_image_container {
+	position: relative;
+}
+#masthead_image {
+	position: absolute;
+	top: 260px;
+}
+
+
+
+
+
+/* ===== About ===== */
+
+#about {
+	margin-top: 100px;
+}
+
+@media screen and (min-width: 769px) {
+	.about-right {
+		margin-top: 170px;
+	}
+}
+.section-title {
+	font-size: 35px;
+	color: var(--title-color);
+	line-height: 0.686;
+	margin-bottom: 30px;
+}
+.text {
+	font-size: 14px;
+	color: var(--text-color);
+	line-height: 1.714;
+}
+
+
+
+
+
+/* ===== Boxs ===== */
+
+#boxs {
+	margin-top: 80px;
+}
+
+.box-title {
+  font-size: 30px;
+  color: var(--color-light);
+  line-height: 1.2;
+  text-align: left;
+}
+.box-text {
+  font-size: 13px;
+  color: var(--color-light);
+  line-height: 1.846;
+  text-align: left;
+}
+.box-link {
+  font-size: 14px;
+  color: var(--color-light);
+  font-weight: bold;
+  line-height: 1.714;
+  text-align: left;
+}
+.box-link-arrow {
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  color: var(--color-light);
+  line-height: 1.714;
+  text-align: left;
+  padding-left: 15px;
+}
+.box {
+	padding: 45px;
+}
+.box-salmon {
+	background: var(--salmon-color);
+}
+.box-greyblue {
+	background: var(--blue-color);
+}
+.box-image {
+	background: url(../Take-assets/box-bg.jpg);
+	background-size: cover;
+}
+.box-image-lg {
+	background: url(../Take-assets/box-bg-lg.jpg);
+	background-size: cover;
+}
+.box-green {
+	background: var(--green-color);
+}
+
+
+
+
+
+/* ===== Details ===== */
+
+#details {
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+#details .section-title {
+	margin-bottom: 70px;
+}
+.item-title {
+	font-size: 13px;
+	color: rgb(103, 103, 109);
+	line-height: 1.846;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+/* ===== Full image ===== */
+
+#full_image {
+	background: url(../Take-assets/full-image.jpg) no-repeat;
+	background-size: cover;
+	height: 100vh;
+	max-height: 874px;	
+	padding-top: 25%;
+}
+.full-image-title {
+	font-size: 60px;
+	color: var(--color-light);
+	line-height: 1.2;
+	text-align: left;
+}
+.full-image-text {
+	font-size: 13px;
+	color: var(--color-light);
+	line-height: 1.846;
+	text-align: left;
+}
+@media screen and (min-width: 769px) {
+	#full_image {
+		height: 100vh;
+		max-height: 874px;
+		padding-top: 450px;
+	}	
+}
+
+
+
+
+
+/* ===== Reasons ===== */
+
+#reasons {
+	background: var(--green-color);
+	padding-top: 125px;
+	padding-bottom: 165px;
+}
+#reasons .section-title {
+	margin-bottom: 65px;
+}
+
+#reasons .section-title,
+#reasons .item-title,
+#reasons .text {
+  color: var(--color-light);
+}
+
+
+
+
+
+/* ===== Buying ===== */
+
+#buying {
+	background: var(--light-grey);
+	padding-top: 50px;
+	padding-bottom: 145px;
+}
+.card {
+	background: transparent;
+	margin-top: 50px;
+	transition: all .8s;
+}
+.card:hover {
+	background: var(--color-light);
+	box-shadow: 0 0 12px #333;
+}
+.badge {
+	background: #e1e1e1;
+	font-size: 11px;
+	color: var(--color-light);
+	text-transform: uppercase;
+	line-height: 2;
+	text-align: center;
+	margin-bottom: 25px;
+	padding: 8px 16px;
+}
+.badge-info {
+	background: #bd8cbf;
+}
+.card-title {
+	font-size: 30px;
+	color: rgb(46, 59, 78);
+	line-height: 1.333;
+	text-align: left;
+}
+.card-text {
+	font-size: 14px;
+	color: rgb(130, 151, 167);
+	line-height: 1.786;
+	text-align: left;
+}
+.btn {
+	background: var(--green-color);
+	border: none;
+	font-size: 13px;
+	color: var(--color-light);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.69;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.card-icon {
+	color: #c5c5c5;
+	padding-right: 15px;
+}
+
+
+
+
+
+/* ===== Footer ===== */
+
+#footer {
+	background: var(--dark-blue-color);
+	padding-bottom: 155px;
+	padding-top: 125px;
+}
+.footer-title,
+.footer-text,
+.footer-list-item {
+  font-size: 13px;
+  color: var(--light-text-color);
+  line-height: 1.846;
+}
+.input-group-text {
+	background: var(--green-color);
+	color: var(--color-light);
+}
+.helpText {
+  font-size: 12px;
+  color: var(--help-color);
+  line-height: 1.5;
+  text-align: left;
+}
+.footer-list-container {
+	margin-top: 20px;
+}
+.footer-list {
+	list-style-type: none;
+}
