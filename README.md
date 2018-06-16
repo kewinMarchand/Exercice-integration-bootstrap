@@ -6,8 +6,7 @@
 
 ### Page hébergée sur [Netlify.com](https://focused-kowalevski-b6e649.netlify.com/)
 
-# CAHIER DES CHARGES DE SITE INTERNET
-OpenClassroom
+# CAHIER DES CHARGES DE SITE INTERNET OpenClassroom
 
 ## 1. Présentation d’ensemble du projet
 
