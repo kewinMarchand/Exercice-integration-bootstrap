@@ -203,6 +203,16 @@ a:hover {
 	max-height: 874px;	
 	padding-top: 25%;
 }
+@media screen and (min-width: 769px) {
+	#full_image {
+		padding-top: 225px;
+	}	
+}
+@media screen and (min-width: 1024px) {
+	#full_image {
+		padding-top: 450px;
+	}	
+}
 .full-image-title {
 	font-size: 60px;
 	color: var(--color-light);
@@ -215,13 +225,7 @@ a:hover {
 	line-height: 1.846;
 	text-align: left;
 }
-@media screen and (min-width: 769px) {
-	#full_image {
-		height: 100vh;
-		max-height: 874px;
-		padding-top: 450px;
-	}	
-}
+
 
 
 
