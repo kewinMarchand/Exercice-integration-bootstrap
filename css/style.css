@@ -208,7 +208,7 @@ a:hover {
 		padding-top: 225px;
 	}	
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1200px) {
 	#full_image {
 		padding-top: 450px;
 	}	
